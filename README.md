@@ -1,4 +1,4 @@
-# Laravel 7 Sentry 錯誤追蹤
+# Laravel 8 Sentry 錯誤追蹤
 
 引入 sentry 的 sentry-laravel 套件來擴增 Sentry 程式錯誤監控服務，利用 Sentry 系統依照專案與錯誤類型，將錯誤回報進行整理與分組，以避免大量的錯誤回報資訊淹沒了開發者的信箱。
 
@@ -24,11 +24,11 @@ $ php artisan sentry:test
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/XgQO7qI.png)
+![](https://i.imgur.com/fQOHhWd.png)
 > 測試 Sentry 配置
 
-![](https://i.imgur.com/I965pGz.png)
+![](https://i.imgur.com/ugN4ht4.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/K5nURjB.png)
+![](https://i.imgur.com/mNjlOT5.png)
 > 使用 Sentry 確認程式錯誤的偵測
