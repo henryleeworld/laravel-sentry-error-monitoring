@@ -27,8 +27,8 @@ $ php artisan sentry:test
 ![](https://i.imgur.com/AtDdD9T.png)
 > 測試 Sentry 配置
 
-![](https://i.imgur.com/9nQPlSe.png)
+![](https://i.imgur.com/IYWlciC.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/NYa5GTk.png)
+![](https://i.imgur.com/HkaCK0V.png)
 > 使用 Sentry 確認程式錯誤的偵測
