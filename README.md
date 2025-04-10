@@ -1,8 +1,9 @@
-# Laravel 10 Sentry 錯誤追蹤
+# Laravel 11 Sentry 錯誤追蹤
 
 引入 sentry 的 sentry-laravel 套件來擴增 Sentry 程式錯誤監控服務，利用 Sentry 系統依照專案與錯誤類型，將錯誤回報進行整理與分組，以避免大量的錯誤回報資訊淹沒了開發者的信箱。
 
 ## 使用方式
+- 打開 php.ini 檔案，啟用 PHP 擴充模組 excimer，並重啟服務器。
 - 把整個專案複製一份到你的電腦裡，這裡指的「內容」不是只有檔案，而是指所有整個專案的歷史紀錄、分支、標籤等內容都會複製一份下來。
 ```sh
 $ git clone
@@ -24,11 +25,11 @@ $ php artisan sentry:test
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/AtDdD9T.png)
+![](https://i.imgur.com/xqgRYtz.png)
 > 測試 Sentry 配置
 
-![](https://i.imgur.com/IYWlciC.png)
+![](https://i.imgur.com/FqWlzmN.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/HkaCK0V.png)
+![](https://i.imgur.com/PzoinsI.png)
 > 使用 Sentry 確認程式錯誤的偵測
