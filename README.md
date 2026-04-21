@@ -1,4 +1,4 @@
-# Laravel 11 Sentry 錯誤追蹤
+# Laravel 12 Sentry 錯誤追蹤
 
 引入 sentry 的 sentry-laravel 套件來擴增 Sentry 程式錯誤監控服務，利用 Sentry 系統依照專案與錯誤類型，將錯誤回報進行整理與分組，以避免大量的錯誤回報資訊淹沒了開發者的信箱。
 
@@ -17,6 +17,10 @@ $ composer install
 ```sh
 $ php artisan key:generate
 ```
+- 執行 __Artisan__ 指令的 __migrate__ 來執行所有未完成的遷移。
+```sh
+$ php artisan migrate
+```
 - 執行 __Artisan__ 指令測試你的 Sentry 配置。
 ```sh
 $ php artisan sentry:test
@@ -25,11 +29,11 @@ $ php artisan sentry:test
 - 你可以經由 `/debug` 來進行錯誤例外觸發。
 
 ## 畫面截圖
-![](https://i.imgur.com/xqgRYtz.png)
+![](https://i.imgur.com/i9d0hqV.png)
 > 測試 Sentry 配置
 
-![](https://i.imgur.com/FqWlzmN.png)
+![](https://i.imgur.com/Mtg9ntC.png)
 > 觸發錯誤例外以中斷程式流程
 
-![](https://i.imgur.com/PzoinsI.png)
+![](https://i.imgur.com/hlgfzvi.png)
 > 使用 Sentry 確認程式錯誤的偵測
